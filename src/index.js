@@ -6,7 +6,7 @@ const port = 3000;
 app.use(cors());
 
 app.get('/',(req,res) => {
-    res.sendFile('C:\\Users\\Krina Vipul Shah\\OneDrive\\Desktop\\DOCUMENTS\\IUB\\2ND SEM\\SE\\artihmetic-service\\index.html')
+    res.send('HI, this is arithmetic-service')
 })
 
 // app.get('/summation', (req, res) => {
